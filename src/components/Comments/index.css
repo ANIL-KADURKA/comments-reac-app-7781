@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.co-app {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: bree serif;
+}
+.comments-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 50px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.head {
+  font-size: 39px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.para {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+.input-element {
+  height: 35px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.text-area {
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 2px solid black;
+  padding: 15px;
+}
+.button {
+  height: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  width: auto;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  background-color: yellow;
+}
+.button:hover {
+  background-color: aqua;
+}
+.image-comment {
+  height: 400px;
+  width: 400px;
+}
+
+.horizontal {
+  width: 900px;
+  border: 2px solid grey;
+  margin-top: 20px;
+}
+.com-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.count-co {
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
+  background-color: chartreuse;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  margin-right: 15px;
+}
+.comment-tag {
+  font-weight: 400;
+  padding: 5px;
+  font-size: 25px;
+}
